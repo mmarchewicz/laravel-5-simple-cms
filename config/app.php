@@ -170,7 +170,8 @@ return [
         Laracasts\Flash\FlashServiceProvider::class,
         Spatie\Analytics\AnalyticsServiceProvider::class,
         Yajra\DataTables\ButtonsServiceProvider::class,
-        Yajra\DataTables\DatatablesServiceProvider::class
+        Yajra\DataTables\DatatablesServiceProvider::class,
+        Barryvdh\TranslationManager\ManagerServiceProvider::class
     ],
 
     /*
