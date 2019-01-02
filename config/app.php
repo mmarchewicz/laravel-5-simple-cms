@@ -92,6 +92,8 @@ return [
 
     'fallback_locale' => 'en',
 
+    'faker_locale' => 'en_GB',
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
@@ -171,7 +173,8 @@ return [
         Spatie\Analytics\AnalyticsServiceProvider::class,
         Yajra\DataTables\ButtonsServiceProvider::class,
         Yajra\DataTables\DatatablesServiceProvider::class,
-        Barryvdh\TranslationManager\ManagerServiceProvider::class
+        App\Providers\ManagerServiceProvider::class,
+        App\Providers\TranslationServiceProvider::class
     ],
 
     /*

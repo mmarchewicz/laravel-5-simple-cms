@@ -14,6 +14,11 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\Cms\Initialize::class,
+        \App\Console\Commands\Cms\CleanCommand::class,
+        \App\Console\Commands\Cms\ExportCommand::class,
+        \App\Console\Commands\Cms\FindCommand::class,
+        \App\Console\Commands\Cms\ImportCommand::class,
+        \App\Console\Commands\Cms\ResetCommand::class,
         \App\Console\Commands\Cms\Resource::class
     ];
 
